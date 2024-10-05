@@ -1,0 +1,8 @@
+site_name: MKDocsを使って、簡単にドキュメント公開
+theme:
+  name: material
+  features:
+    - navigation.tabs
+nav:
+  - HOME: index.md
+  - TEST: test.md 
