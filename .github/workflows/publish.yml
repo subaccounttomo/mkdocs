@@ -9,9 +9,11 @@ permissions:
   contents: write
 jobs:
   deploy:
+    # マージのルールで、CIの失敗で弾くために、名前をつけておかないといけない
     name: build
     runs-on: ubuntu-latest
     steps:
+      - run: exit 1
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
