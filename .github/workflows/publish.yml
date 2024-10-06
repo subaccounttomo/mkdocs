@@ -3,7 +3,10 @@ on:
   pull_request:
     branches:
       - main
-    workflow_dispat:
+  push:
+    branches:
+      - main
+  workflow_d:
     
 permissions:
   contents: write
