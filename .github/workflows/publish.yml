@@ -3,7 +3,7 @@ on:
   pull_request:
     branches:
       - main
-    workflow_dispatc:
+workflow_dispatc:
     
 permissions:
   contents: write
